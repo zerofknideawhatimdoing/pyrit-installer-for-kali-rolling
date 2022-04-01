@@ -17,8 +17,8 @@ sed -i "s/COMPILE_AESNI/COMPILE_AESNIX/" Pyrit/cpyrit/_cpyrit_cpu.c
 
 # Build and install
 cd Pyrit
-python setup.py clean
-python setup.py build
+python2.7 setup.py clean
+python2.7 setup.py build
 sudo python setup.py install
 cd ..
 
